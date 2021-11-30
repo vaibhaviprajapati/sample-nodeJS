@@ -13,4 +13,4 @@ res.end(`<h1>Ooops!</h1>
 `)
 })
 
-server.listen(5000)
+server.listen(process.env.PORT || 5000)
